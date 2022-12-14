@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Poppins:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+marquee{
+    color: red;
+}
+
+.box{
+    padding: 10px 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.box h5{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-expand-lg{
+    background-color: rgb(84, 3, 3);
+}
+.nav-link{
+    color: white;
+}
+
+ a:hover{
+    border-radius: 30px;
+    list-style: none;
+
+}
+
+
+
+
+
+
